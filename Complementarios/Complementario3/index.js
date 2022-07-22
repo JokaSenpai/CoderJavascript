@@ -43,12 +43,12 @@ if (eleccion === 1){
         case 1:
             let h2 = document.createElement("h2");
             h2.innerHTML = "Lista de bebidas con Alcohol";
-            bebConAlcohol.append(h2);
+            bebConAlcohol.appendChild(h2);
 
             for(const item of listaAlcohol){
                 let li = document.createElement("li");
                 li.innerHTML = `${item.nombre}`;
-                bebConAlcohol.append(li);
+                bebConAlcohol.appendChild(li);
         }
         
         break;
