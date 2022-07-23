@@ -12,6 +12,7 @@ class Bebidas {
 // Declaracion de variables
 
 const chupe = [];
+let testVar;
 let sinAlcohol = 0;
 let eleccion = parseInt(prompt("Si desea ver la lista ingrese 1\nSi desea comprobar si su bebida esta en la lista predefinida ingrese 2\nDe lo contrario ud. querra ingresar bebidas"));
 // let eleccionAlcohol;
